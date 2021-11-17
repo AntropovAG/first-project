@@ -1,8 +1,12 @@
 .header {
     display: flex;
+     height: 200px;
+     width: 500px;
 
 }
 
 .content {
-    justify-content: center;
+    justify-content: flex-end;
+    background-color: aqua;
+    border: 1px red solid;
 }
