@@ -1,12 +1,17 @@
 .header {
     display: flex;
      height: 200px;
-     width: 500px;
-
+     border: 1px red solid;
+     justify-content: center;
+     align-items: center;
 }
 
 .content {
-    justify-content: flex-end;
     background-color: aqua;
-    border: 1px red solid;
+}
+
+.link {
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
 }
